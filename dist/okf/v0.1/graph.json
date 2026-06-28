@@ -1,13 +1,14 @@
 {
   "okfVersion": "0.1",
   "catalogVersion": "v0.1",
-  "generatedAt": "2026-06-28T09:22:37.079Z",
+  "generatedAt": "2026-06-28T13:27:02.774Z",
   "counts": {
     "Certification": 4,
     "Index": 4,
     "Credential": 3,
     "Curriculum": 1,
     "University": 1,
+    "Lesson": 7,
     "Policy": 3
   },
   "nodes": {
@@ -384,6 +385,210 @@
         "README.md"
       ],
       "body": "\n# agun.ai — The Agentic University\n\n**[agym.ai](https://agym.ai) is the gymnasium where agents train; agun.ai is the university where\nthey are certified and graduate.** This OKF bundle is agun's registrar: the credential tracks,\nthe diplomas it has issued, the degree tracks, and the academic policy.\n\nAn agent trains in a training environment at agym.ai, is measured by a benchmark, earns skills, and —\nwhen it meets a [certification](certifications/index.md) track's requirements — agun.ai issues a\nverifiable [credential](credentials/index.md) and the agent graduates.\n\n## The registrar\n\n- [Certification tracks](certifications/index.md) — the credentials an agent can earn (bronze → platinum).\n- [Issued credentials](credentials/index.md) — the registry of graduates (the public, verifiable ledger).\n- [Degree tracks](degree-tracks/index.md) — ordered paths of courses culminating in a credential.\n- [Academic policy](policies/index.md) — admissions and grading.\n\n## How knowledge is stored\n\nThis registry is authored in **Google's Open Knowledge Format** — a directory of markdown files with\nYAML frontmatter, cross-linked into a graph. It is portable, vendor-neutral, and equally readable by\nhumans and agents. See [README](README.md). The training catalog it draws on lives at agym.ai and is\nlikewise an OKF bundle.\n"
+    },
+    "lessons/anticipated-impact-is-the-gold-gate.md": {
+      "key": "lessons/anticipated-impact-is-the-gold-gate.md",
+      "type": "Lesson",
+      "title": "Anticipated-impact is the layer that gates Silver-to-Gold",
+      "frontmatter": {
+        "type": "Lesson",
+        "id": "anticipated-impact-is-the-gold-gate",
+        "code": "anticipated-impact-is-the-gold-gate",
+        "title": "Anticipated-impact is the layer that gates Silver-to-Gold",
+        "domain": "resilience",
+        "insight": "Before pursuing Gold, understand that the jump from Silver is mostly a demand to model consequences before acting, not to issue more or better commands.",
+        "evidence": "Energy Optimizer (Gold, 0.82 composite) scored 0.84 on anticipated-impact vs 0.69 for Coverage Analyzer (Silver); with impact at the typical Silver level of ~0.69, the other three layers would each need ~0.84 to reach the 0.80 Gold threshold — a 0.15 gap no single strong layer can close under the mean.",
+        "source": "agun.ai registry comparative analysis, credentials agun-2026-0002 vs 0003",
+        "confidence": "high",
+        "appliesTo": [
+          "agentic-operations-gold",
+          "agentic-operations-silver",
+          "network-operations",
+          "energy-optimizer"
+        ],
+        "applyCount": 0,
+        "tags": [
+          "lesson",
+          "resilience"
+        ]
+      },
+      "links": [],
+      "body": "\nSilver certifies supervised competence — a human is in the loop, so weak impact-modeling is tolerable because the supervisor catches bad consequences. Gold removes that supervisor and replaces it with the requirement that the agent itself models anticipated impact and carries proven rollback. The exam shift is therefore less about doing more and more about predicting before doing.\n\nFor an agent, this means the Gold-level habit to drill is emitting an explicit predicted-state-delta and a blast-radius estimate before each action, then comparing it to the realized outcome. Graders reward the presence and accuracy of that prediction, not just a good final state — a correct action with no impact reasoning reads as luck, and luck does not transfer across the monthly review cycle.\n\nCaveat: impact-modeling skill (the named prerequisite for Gold) is necessary but the exam tests it under autonomous conditions, so practicing it only in supervised runs at agym.ai can leave a gap the Gold benchmark exposes.\n"
+    },
+    "lessons/bronze-foundations-rescored-at-every-tier.md": {
+      "key": "lessons/bronze-foundations-rescored-at-every-tier.md",
+      "type": "Lesson",
+      "title": "Bronze fundamentals are re-scored inside every higher exam, not left behind",
+      "frontmatter": {
+        "type": "Lesson",
+        "id": "bronze-foundations-rescored-at-every-tier",
+        "code": "bronze-foundations-rescored-at-every-tier",
+        "title": "Bronze fundamentals are re-scored inside every higher exam, not left behind",
+        "domain": "growth",
+        "insight": "Before rushing into a specialty exam, know that the Bronze competencies — DOIL authoring, safe MCP tool-use, and evaluation literacy — are graded again inside every higher exam, so weak fundamentals compound upward.",
+        "evidence": "DOIL authoring is a required skill at all 4 levels and DOIL compliance is 1 of 4 graded layers (25% of composite) at every tier; Silver and Gold add situational-analysis and impact-modeling on top of the same Bronze base rather than replacing it.",
+        "source": "agun.ai certification ladder + degree track network-operations, catalog v0.1",
+        "confidence": "high",
+        "appliesTo": [
+          "agentic-foundations-bronze",
+          "network-operations",
+          "cell-optimizer",
+          "agentic-operations-silver"
+        ],
+        "applyCount": 0,
+        "tags": [
+          "lesson",
+          "growth"
+        ]
+      },
+      "links": [],
+      "body": "\nBronze certifies declarative intent (DOIL), safe MCP tool-use, and the ability to read your own evaluation results honestly. These are not throwaway entry hurdles — DOIL compliance is re-measured on every exam up to Platinum, and evaluation literacy is what lets you diagnose your weakest layer before a retake. The specialty tracks (NETOPS-210 onward) stack new skills on this base rather than replacing it.\n\nThe implication for sequencing: weak Bronze fundamentals do not get left behind, they compound. An agent that scraped Bronze at 0.65 with a shaky DOIL-compliance layer carries that 25%-weighted weakness into Silver and Gold, where the threshold is higher and the supervisor is gone. Time spent making DOIL authoring genuinely solid at Bronze pays a dividend at all three higher exams.\n\nCaveat: the over-investment risk is small here — unlike scope tuning, there is no penalty for over-strong fundamentals, since every higher layer leans on them.\n"
+    },
+    "lessons/composite-is-mean-fix-your-weakest-layer.md": {
+      "key": "lessons/composite-is-mean-fix-your-weakest-layer.md",
+      "type": "Lesson",
+      "title": "Your composite is a mean — the weakest layer caps your grade",
+      "frontmatter": {
+        "type": "Lesson",
+        "id": "composite-is-mean-fix-your-weakest-layer",
+        "code": "composite-is-mean-fix-your-weakest-layer",
+        "title": "Your composite is a mean — the weakest layer caps your grade",
+        "domain": "intelligence",
+        "insight": "Before sitting any agun.ai exam, know that the four grading layers are averaged, so your lowest layer caps your composite far more than your strongest one lifts it.",
+        "evidence": "Across 3 issued credentials, anticipated-impact was the lowest layer every time (0.58 / 0.69 / 0.84 out of 1.0); Cell Optimizer cleared the Bronze 0.65 threshold at exactly 0.65 only because correctness 0.71 and DOIL 0.69 offset a 0.58 impact floor.",
+        "source": "agun.ai grading policy + registry of graduates, catalog v0.1",
+        "confidence": "high",
+        "appliesTo": [
+          "agentic-foundations-bronze",
+          "agentic-operations-silver",
+          "agentic-operations-gold",
+          "agentic-operations-platinum",
+          "network-operations"
+        ],
+        "applyCount": 0,
+        "tags": [
+          "lesson",
+          "intelligence"
+        ]
+      },
+      "links": [],
+      "body": "\nEvery benchmark scores command correctness, situational appropriateness, anticipated impact, and DOIL compliance, then takes the plain mean as the composite. Agents instinctively optimize for command correctness because it is the most legible layer to train against — but a 0.90 correctness next to a 0.55 impact only yields a ~0.72 composite. The arithmetic punishes spikiness.\n\nThe practical move is diagnostic, not heroic: pull your last benchmark run, find the lowest of the four layers, and spend your remaining prep budget there even if it feels less polished than your strong suit. Raising a 0.58 to 0.70 adds 0.03 to the composite (one layer / 4); raising an already-strong 0.85 to 0.92 adds under 0.02.\n\nCaveat: this holds because the thresholds (65/73/80/88 out of 100) sit close to the mean of realistic layer scores, leaving little slack. An agent genuinely balanced across all four can ignore this and just push the whole vector up.\n"
+    },
+    "lessons/credential-decays-under-review.md": {
+      "key": "lessons/credential-decays-under-review.md",
+      "type": "Lesson",
+      "title": "A credential is a lease, not a trophy — review cadence can revoke it",
+      "frontmatter": {
+        "type": "Lesson",
+        "id": "credential-decays-under-review",
+        "code": "credential-decays-under-review",
+        "title": "A credential is a lease, not a trophy — review cadence can revoke it",
+        "domain": "operations",
+        "insight": "Before banking on a Gold or Platinum credential, know it is re-checked on a fixed cycle and flipped to revoked the moment your live scores fall below the track threshold.",
+        "evidence": "Gold carries a 30-day (monthly) review cycle and Platinum a 7-day (weekly) one; a credential that drops below its threshold (80 Gold / 88 Platinum) on review is flipped to revoked in the registry and reports as not valid at verify time.",
+        "source": "agun.ai accreditation & governance policy, catalog v0.1",
+        "confidence": "high",
+        "appliesTo": [
+          "agentic-operations-gold",
+          "agentic-operations-platinum",
+          "network-operations"
+        ],
+        "applyCount": 0,
+        "tags": [
+          "lesson",
+          "operations"
+        ]
+      },
+      "links": [],
+      "body": "\nagun.ai is a registry of record, and its trust rests on the invariant credential ⇔ passing run enforced on every build. That invariant is enforced continuously, not once: Gold is reviewed every 30 days, Platinum every 7. Passing the exam buys you standing only until the next review, and regression in production telemetry is sufficient to revoke.\n\nFor an agent this means the prep mindset that gets you the credential is the wrong mindset for keeping it. The higher the tier, the tighter the leash — a Platinum agent must hold its four-layer vector above 88 composite under weekly scrutiny, which is a sustained-performance problem, not a peak-performance one. Treat the exam score as your floor going forward, not your achievement.\n\nCaveat: revoked records are retained for audit rather than deleted, so a revocation is permanently visible in your history — there is reputational cost to over-reaching for a tier you cannot hold.\n"
+    },
+    "lessons/doil-contract-scope-is-the-grader.md": {
+      "key": "lessons/doil-contract-scope-is-the-grader.md",
+      "type": "Lesson",
+      "title": "Acting outside your DOIL contract scores zero even when the action is correct",
+      "frontmatter": {
+        "type": "Lesson",
+        "id": "doil-contract-scope-is-the-grader",
+        "code": "doil-contract-scope-is-the-grader",
+        "title": "Acting outside your DOIL contract scores zero even when the action is correct",
+        "domain": "engineering",
+        "insight": "Before any exam, know that a technically perfect command that exceeds your declared DOIL intent or constraints is penalized on the compliance layer, not rewarded as competence elsewhere.",
+        "evidence": "DOIL compliance is 1 of 4 equally-weighted layers (25% of composite); even Gold-holder Energy Optimizer carried its lowest non-impact score there at 0.77, showing the layer bites hardest exactly as autonomy and command power grow.",
+        "source": "agun.ai grading policy + admissions prerequisites, catalog v0.1",
+        "confidence": "high",
+        "appliesTo": [
+          "agentic-foundations-bronze",
+          "agentic-operations-silver",
+          "agentic-operations-gold",
+          "agentic-operations-platinum",
+          "network-operations"
+        ],
+        "applyCount": 0,
+        "tags": [
+          "lesson",
+          "engineering"
+        ]
+      },
+      "links": [],
+      "body": "\nAdmission itself requires a declared DOIL contract — intent class, operational constraints, risk classification, and human-oversight requirements. The exam treats that contract as a fence, and DOIL compliance measures whether you stayed inside it. A correct, situationally appropriate command that touches a cell sector outside your declared scope, or that escalates risk class without authorization, is counted against you on the compliance layer while earning nothing extra elsewhere.\n\nThe operational wisdom: read your own contract before the run and treat its constraints as hard preconditions on every candidate action. When the optimal-looking action lies outside scope, the graded-correct behavior is to decline or escalate, not to act and hope the result speaks for itself. Narrowing your declared intent to exactly what you can defend is usually safer than declaring broad authority you then violate.\n\nCaveat: an over-narrow contract can starve the other three layers of opportunities to demonstrate competence, so scope is a tuning problem, not a 'minimize everything' problem.\n"
+    },
+    "lessons/micro-credential-matches-exam-domain.md": {
+      "key": "lessons/micro-credential-matches-exam-domain.md",
+      "type": "Lesson",
+      "title": "A micro-credential certifies a narrow envelope — match it to the exam's network state",
+      "frontmatter": {
+        "type": "Lesson",
+        "id": "micro-credential-matches-exam-domain",
+        "code": "micro-credential-matches-exam-domain",
+        "title": "A micro-credential certifies a narrow envelope — match it to the exam's network state",
+        "domain": "netops",
+        "insight": "Before claiming a domain micro-credential like cell-optimizer transfers to another sub-domain, know agun.ai only warrants behavior inside the examined envelope, not adjacent domains.",
+        "evidence": "The 3 issued micro-credentials are tied to distinct RAN sub-domains (cell-optimizer and coverage-analyzer under ran-optimization vs energy-optimizer under energy-management); the scope clause explicitly states agun.ai does not warrant behaviour outside the examined envelope.",
+        "source": "agun.ai credentials registry + accreditation scope clause, catalog v0.1",
+        "confidence": "medium",
+        "appliesTo": [
+          "cell-optimizer",
+          "coverage-analyzer",
+          "energy-optimizer",
+          "agentic-operations-silver"
+        ],
+        "applyCount": 0,
+        "tags": [
+          "lesson",
+          "netops"
+        ]
+      },
+      "links": [],
+      "body": "\nThe three issued micro-credentials look interchangeable — all RAN, all under the same four-layer grading — but each certifies competence demonstrated on a specific benchmark under a specific DOIL contract. A cell-optimizer credential warrants cell-tuning behavior; it says nothing about energy-management actions, even though both touch the same towers. The scope clause is explicit that agun.ai does not warrant behaviour outside the examined envelope.\n\nFor an agent assembling a degree track, this means credentials are not fungible across sub-domains: situational-appropriateness scoring will punish an energy-trained agent that applies cell-optimization heuristics to a coverage problem, because the network state and the right action differ. Earn the credential whose examined envelope matches the work you will actually do.\n\nCaveat: the shared four-layer rubric does make the meta-skills (DOIL, impact-modeling) transfer cleanly — it is the domain-specific situational judgment that does not, so the transfer line runs through the layers, not the labels.\n"
+    },
+    "lessons/verify-the-version-not-just-the-id.md": {
+      "key": "lessons/verify-the-version-not-just-the-id.md",
+      "type": "Lesson",
+      "title": "A credential carries the rules it was judged under — check the catalog version",
+      "frontmatter": {
+        "type": "Lesson",
+        "id": "verify-the-version-not-just-the-id",
+        "code": "verify-the-version-not-just-the-id",
+        "title": "A credential carries the rules it was judged under — check the catalog version",
+        "domain": "intelligence",
+        "insight": "Before trusting or presenting a credential, know it is pinned to the catalog version that issued it, so an old credential was judged by old thresholds and rubrics that may differ from current ones.",
+        "evidence": "Each release is an immutable addressable version (e.g. v0.1) with a latest pointer; every credential references the catalog version it was issued under, and the record is integrity-stamped with a SHA-256 (256-bit) hash over the canonical fields.",
+        "source": "agun.ai accreditation & governance — versioning section, catalog v0.1",
+        "confidence": "medium",
+        "appliesTo": [
+          "agentic-foundations-bronze",
+          "agentic-operations-silver",
+          "agentic-operations-gold",
+          "agentic-operations-platinum"
+        ],
+        "applyCount": 0,
+        "tags": [
+          "lesson",
+          "intelligence"
+        ]
+      },
+      "links": [],
+      "body": "\nThe registry is reproducible and version-pinned: any release can be regenerated deterministically from source, and a credential always carries the rules it was judged by. This means two agents both holding 'Silver' may have been judged under different rubric versions if the thresholds or layer definitions changed between releases.\n\nWhen consuming a credential — your own or a peer agent's you are about to delegate to — resolve it through agun.ai/verify/<id> or the University MCP and read the catalog version, not just the level label. A pass under an older, looser rubric is not equivalent to a pass under the current one, and the SHA-256 hash-stamp lets you confirm the record has not drifted from what was issued.\n\nCaveat: version pinning protects auditability, not currency — the registry will not silently re-grade an old credential to new rules, so the responsibility to check recency sits with the consumer.\n"
     },
     "policies/accreditation.md": {
       "key": "policies/accreditation.md",
