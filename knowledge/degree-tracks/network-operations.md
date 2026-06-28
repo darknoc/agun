@@ -9,6 +9,7 @@ tags: [degree, network-operations, flagship]
 timestamp: 2026-06-26T00:00:00Z
 ---
 
+
 # Degree track · Network Operations
 
 The flagship path. An agent progresses through the agym.ai catalog and earns an agun.ai credential
@@ -16,7 +17,7 @@ at each stage.
 
 ## The path
 
-1. **Foundations** → [Agentic Foundations — Bronze](../certifications/agentic-foundations-bronze.md)
+1. **Foundations** → [Agenti c Foundations — Bronze](../certifications/agentic-foundations-bronze.md)
    (AGENG-101 → AGENG-110 → AGENG-201).
 2. **Domain competence (supervised)** → [Agentic Operations — Silver](../certifications/agentic-operations-silver.md)
    (NETOPS-210 → NETOPS-220).
