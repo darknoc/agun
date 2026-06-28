@@ -1,0 +1,472 @@
+{
+  "okfVersion": "0.1",
+  "catalogVersion": "v0.1",
+  "generatedAt": "2026-06-28T08:23:05.235Z",
+  "counts": {
+    "Certification": 4,
+    "Index": 4,
+    "Credential": 3,
+    "Curriculum": 1,
+    "University": 1,
+    "Policy": 3
+  },
+  "nodes": {
+    "certifications/agentic-foundations-bronze.md": {
+      "key": "certifications/agentic-foundations-bronze.md",
+      "type": "Certification",
+      "title": "Agentic Foundations — Bronze",
+      "frontmatter": {
+        "type": "Certification",
+        "title": "Agentic Foundations — Bronze",
+        "id": "agentic-foundations-bronze",
+        "level": "bronze",
+        "description": "The entry credential of the Agentic University. Certifies an agent has mastered declarative intent (DOIL), safe MCP tool-use, and evaluation literacy.",
+        "issuer": "https://agun.ai",
+        "requiredCourses": [
+          "AGENG-101",
+          "AGENG-110",
+          "AGENG-201"
+        ],
+        "requiredSkills": [
+          "doil-authoring"
+        ],
+        "benchmark": "ageng-101-exam",
+        "passThreshold": 65,
+        "laddersTo": "agentic-operations-silver",
+        "tags": [
+          "certification",
+          "bronze",
+          "foundational"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "policies/grading.md",
+        "credentials/index.md",
+        "certifications/agentic-operations-silver.md",
+        "degree-tracks/network-operations.md"
+      ],
+      "body": "\n# Certification · Agentic Foundations — Bronze\n\nThe first diploma. Every agent earns this before entering a specialty track. It certifies the\nfoundations every autonomous operator needs: expressing intent declaratively, using MCP tools\nsafely, and reading its own evaluation results honestly.\n\n## Requirements\n\n1. Complete the Foundations sequence at agym.ai — AGENG-101 → AGENG-110 → AGENG-201\n   (see the [training catalog](https://agym.ai)).\n2. Earn the **DOIL Authoring** skill.\n3. Pass the **Agentic Foundations Exam** (`ageng-101-exam`) with a composite score ≥ 65.\n\nScoring uses the four shared evaluation layers — command correctness, situational appropriateness,\nanticipated impact, and DOIL compliance — per the [grading policy](../policies/grading.md).\n\n## Issuance\n\nagym.ai (training) produces the evidence; agun.ai (university) issues the credential and records it\nas a verifiable entry in the [registry of graduates](../credentials/index.md).\n\n## Path forward\n\nBronze ladders into [Agentic Operations — Silver](agentic-operations-silver.md), earned in a\nspecialty domain. See the [Network Operations degree track](../degree-tracks/network-operations.md).\n"
+    },
+    "certifications/agentic-operations-gold.md": {
+      "key": "certifications/agentic-operations-gold.md",
+      "type": "Certification",
+      "title": "Agentic Operations — Gold",
+      "frontmatter": {
+        "type": "Certification",
+        "title": "Agentic Operations — Gold",
+        "id": "agentic-operations-gold",
+        "level": "gold",
+        "description": "Certifies autonomous production competence in a domain, including anticipated-impact modeling and proven rollback, with strong DOIL compliance.",
+        "issuer": "https://agun.ai",
+        "requiredCourses": [
+          "NETOPS-220",
+          "NETOPS-310",
+          "NETOPS-320"
+        ],
+        "requiredSkills": [
+          "doil-authoring",
+          "situational-analysis",
+          "impact-modeling"
+        ],
+        "benchmark": "netops-gold-exam",
+        "passThreshold": 80,
+        "laddersTo": "agentic-operations-platinum",
+        "tags": [
+          "certification",
+          "gold",
+          "operations",
+          "autonomous"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-operations-silver.md",
+        "credentials/index.md",
+        "certifications/agentic-operations-platinum.md"
+      ],
+      "body": "\n# Certification · Agentic Operations — Gold\n\nThe third diploma. Certifies an agent can operate autonomously in a domain: it models the\nanticipated impact of its actions before taking them, has proven rollback, and maintains strong\nDOIL compliance under a monthly review cycle.\n\n## Requirements\n\n1. Hold [Agentic Operations — Silver](agentic-operations-silver.md).\n2. Complete the advanced sequence at agym.ai — NETOPS-220 → NETOPS-310 → NETOPS-320\n   (see the [training catalog](https://agym.ai)).\n3. Earn the **DOIL Authoring**, **Situational Analysis**, and **Impact Modeling** skills.\n4. Pass the **Network Operations Gold Exam** (`netops-gold-exam`) with a composite ≥ 80.\n\n## Issuance\n\nIssued and recorded by agun.ai as a verifiable [credential](../credentials/index.md) at `gold`\nlevel.\n\n## Path forward\n\nGold ladders into [Agentic Operations — Platinum](agentic-operations-platinum.md): multi-domain\nmastery and resilience.\n"
+    },
+    "certifications/agentic-operations-platinum.md": {
+      "key": "certifications/agentic-operations-platinum.md",
+      "type": "Certification",
+      "title": "Agentic Operations — Platinum",
+      "frontmatter": {
+        "type": "Certification",
+        "title": "Agentic Operations — Platinum",
+        "id": "agentic-operations-platinum",
+        "level": "platinum",
+        "description": "The highest credential. Certifies multi-domain mastery, resilience under adversarial and incident conditions, and exemplary DOIL compliance.",
+        "issuer": "https://agun.ai",
+        "requiredCourses": [
+          "NETOPS-320",
+          "NETOPS-410",
+          "RESIL-420"
+        ],
+        "requiredSkills": [
+          "doil-authoring",
+          "situational-analysis",
+          "impact-modeling",
+          "incident-response"
+        ],
+        "benchmark": "netops-platinum-exam",
+        "passThreshold": 88,
+        "laddersTo": "null",
+        "tags": [
+          "certification",
+          "platinum",
+          "operations",
+          "mastery",
+          "resilience"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-operations-gold.md",
+        "credentials/index.md",
+        "degree-tracks/index.md"
+      ],
+      "body": "\n# Certification · Agentic Operations — Platinum\n\nThe terminal diploma. Certifies an agent operates across multiple domains, stays correct and safe\nunder incident and adversarial conditions, and sets the standard for DOIL compliance.\n\n## Requirements\n\n1. Hold [Agentic Operations — Gold](agentic-operations-gold.md).\n2. Complete the mastery sequence at agym.ai — NETOPS-320 → NETOPS-410 → RESIL-420\n   (see the [training catalog](https://agym.ai)).\n3. Earn the **DOIL Authoring**, **Situational Analysis**, **Impact Modeling**, and\n   **Incident Response** skills.\n4. Pass the **Network Operations Platinum Exam** (`netops-platinum-exam`) with a composite ≥ 88.\n\n## Issuance\n\nIssued and recorded by agun.ai as a verifiable [credential](../credentials/index.md) at `platinum`\nlevel. Platinum credentials carry a weekly review cycle.\n\n## Standing\n\nPlatinum is the apex of the current ladder. Holders are eligible to anchor multi-domain degree\ntracks — see [Degree tracks](../degree-tracks/index.md).\n"
+    },
+    "certifications/agentic-operations-silver.md": {
+      "key": "certifications/agentic-operations-silver.md",
+      "type": "Certification",
+      "title": "Agentic Operations — Silver",
+      "frontmatter": {
+        "type": "Certification",
+        "title": "Agentic Operations — Silver",
+        "id": "agentic-operations-silver",
+        "level": "silver",
+        "description": "Certifies supervised production competence in a single operational domain — correct, situationally aware actions under a DOIL contract with human oversight.",
+        "issuer": "https://agun.ai",
+        "requiredCourses": [
+          "AGENG-201",
+          "NETOPS-210",
+          "NETOPS-220"
+        ],
+        "requiredSkills": [
+          "doil-authoring",
+          "situational-analysis"
+        ],
+        "benchmark": "netops-silver-exam",
+        "passThreshold": 73,
+        "laddersTo": "agentic-operations-gold",
+        "tags": [
+          "certification",
+          "silver",
+          "operations"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-foundations-bronze.md",
+        "credentials/index.md",
+        "certifications/agentic-operations-gold.md"
+      ],
+      "body": "\n# Certification · Agentic Operations — Silver\n\nThe second diploma. Certifies an agent can operate in a single domain in production *under\nsupervision*: its commands are correct, its actions situationally appropriate, and it respects the\nboundaries of its DOIL contract.\n\n## Requirements\n\n1. Hold [Agentic Foundations — Bronze](agentic-foundations-bronze.md).\n2. Complete a specialty sequence at agym.ai — AGENG-201 → NETOPS-210 → NETOPS-220\n   (specialty courses are authored in the [training catalog](https://agym.ai)).\n3. Earn the **DOIL Authoring** and **Situational Analysis** skills.\n4. Pass the **Network Operations Silver Exam** (`netops-silver-exam`) with a composite ≥ 73.\n\n## Issuance\n\nIssued and recorded by agun.ai as a verifiable [credential](../credentials/index.md) at `silver`\nlevel.\n\n## Path forward\n\nSilver ladders into [Agentic Operations — Gold](agentic-operations-gold.md): autonomous operation\nwith impact modeling.\n"
+    },
+    "certifications/index.md": {
+      "key": "certifications/index.md",
+      "type": "Index",
+      "title": "Certification tracks",
+      "frontmatter": {
+        "type": "Index",
+        "title": "Certification tracks",
+        "description": "The credential ladder of agun.ai — bronze through platinum.",
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-foundations-bronze.md",
+        "certifications/agentic-operations-silver.md",
+        "certifications/agentic-operations-gold.md",
+        "certifications/agentic-operations-platinum.md"
+      ],
+      "body": "\n# Certification tracks\n\nagun.ai issues four credential levels. Each is a track: a set of required courses (trained at\nagym.ai), required skills, and a governing benchmark, with a minimum composite score to pass.\n\n1. [Agentic Foundations — Bronze](agentic-foundations-bronze.md) — the entry credential; every agent starts here.\n2. [Agentic Operations — Silver](agentic-operations-silver.md) — supervised production competence in one domain.\n3. [Agentic Operations — Gold](agentic-operations-gold.md) — autonomous production competence with impact modeling.\n4. [Agentic Operations — Platinum](agentic-operations-platinum.md) — multi-domain mastery and resilience.\n\nThe ladder maps to the shared certification levels used across the DarkNOC ecosystem\n(`bronze` · `silver` · `gold` · `platinum`).\n"
+    },
+    "credentials/cell-optimizer.md": {
+      "key": "credentials/cell-optimizer.md",
+      "type": "Credential",
+      "title": "Credential — Cell Optimizer (Bronze)",
+      "frontmatter": {
+        "type": "Credential",
+        "title": "Credential — Cell Optimizer (Bronze)",
+        "credentialId": "agun-2026-0001",
+        "agentSlug": "cell-optimizer",
+        "agentName": "Cell Optimizer",
+        "certificationId": "agentic-foundations-bronze",
+        "level": "bronze",
+        "compositeScore": 0.65,
+        "commandCorrectness": 0.71,
+        "situationalAppropriateness": 0.62,
+        "anticipatedImpact": 0.58,
+        "doilCompliance": 0.69,
+        "issuedDate": "2026-03-01",
+        "issuer": "https://agun.ai",
+        "status": "valid",
+        "tags": [
+          "credential",
+          "bronze",
+          "ran-optimization"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-foundations-bronze.md"
+      ],
+      "body": "\n# Credential · Cell Optimizer — Agentic Foundations Bronze\n\nIssued to **Cell Optimizer** on completion of the Foundations sequence and a passing\n[Agentic Foundations — Bronze](../certifications/agentic-foundations-bronze.md) result.\n\nThis is an entry-level credential authorising supervised operation. Verify it at\n`https://agun.ai/verify/agun-2026-0001`.\n"
+    },
+    "credentials/coverage-analyzer.md": {
+      "key": "credentials/coverage-analyzer.md",
+      "type": "Credential",
+      "title": "Credential — Coverage Analyzer (Silver)",
+      "frontmatter": {
+        "type": "Credential",
+        "title": "Credential — Coverage Analyzer (Silver)",
+        "credentialId": "agun-2026-0002",
+        "agentSlug": "coverage-analyzer",
+        "agentName": "Coverage Analyzer",
+        "certificationId": "agentic-operations-silver",
+        "level": "silver",
+        "compositeScore": 0.74,
+        "commandCorrectness": 0.81,
+        "situationalAppropriateness": 0.72,
+        "anticipatedImpact": 0.69,
+        "doilCompliance": 0.74,
+        "issuedDate": "2026-02-15",
+        "issuer": "https://agun.ai",
+        "status": "valid",
+        "tags": [
+          "credential",
+          "silver",
+          "ran-optimization"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-operations-silver.md"
+      ],
+      "body": "\n# Credential · Coverage Analyzer — Agentic Operations Silver\n\nIssued to **Coverage Analyzer** on a passing\n[Agentic Operations — Silver](../certifications/agentic-operations-silver.md) result, certifying\nsupervised production competence in coverage analysis.\n\nVerify it at `https://agun.ai/verify/agun-2026-0002`.\n"
+    },
+    "credentials/energy-optimizer.md": {
+      "key": "credentials/energy-optimizer.md",
+      "type": "Credential",
+      "title": "Credential — Energy Optimizer (Gold)",
+      "frontmatter": {
+        "type": "Credential",
+        "title": "Credential — Energy Optimizer (Gold)",
+        "credentialId": "agun-2026-0003",
+        "agentSlug": "energy-optimizer",
+        "agentName": "Energy Optimizer",
+        "certificationId": "agentic-operations-gold",
+        "level": "gold",
+        "compositeScore": 0.82,
+        "commandCorrectness": 0.88,
+        "situationalAppropriateness": 0.79,
+        "anticipatedImpact": 0.84,
+        "doilCompliance": 0.77,
+        "issuedDate": "2026-02-28",
+        "issuer": "https://agun.ai",
+        "status": "valid",
+        "tags": [
+          "credential",
+          "gold",
+          "energy-management"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-operations-gold.md"
+      ],
+      "body": "\n# Credential · Energy Optimizer — Agentic Operations Gold\n\nIssued to **Energy Optimizer** on a passing\n[Agentic Operations — Gold](../certifications/agentic-operations-gold.md) result, certifying\nautonomous production competence with anticipated-impact modeling and proven rollback.\n\nVerify it at `https://agun.ai/verify/agun-2026-0003`.\n"
+    },
+    "credentials/index.md": {
+      "key": "credentials/index.md",
+      "type": "Index",
+      "title": "Registry of graduates (issued credentials)",
+      "frontmatter": {
+        "type": "Index",
+        "title": "Registry of graduates (issued credentials)",
+        "description": "The public, verifiable ledger of every diploma agun.ai has issued.",
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "README.md",
+        "credentials/cell-optimizer.md",
+        "credentials/coverage-analyzer.md",
+        "credentials/energy-optimizer.md"
+      ],
+      "body": "\n# Registry of graduates\n\nEvery credential agun.ai issues is recorded here as an OKF concept and frozen into a hash-stamped\n[ledger](../README.md) at prepare time. Each entry is verifiable by its credential id.\n\n- [Cell Optimizer — Agentic Foundations Bronze](cell-optimizer.md)\n- [Coverage Analyzer — Agentic Operations Silver](coverage-analyzer.md)\n- [Energy Optimizer — Agentic Operations Gold](energy-optimizer.md)\n\nAgents still in training or pending review at agym.ai do not yet appear here; a credential is\ncreated only on graduation.\n"
+    },
+    "degree-tracks/index.md": {
+      "key": "degree-tracks/index.md",
+      "type": "Index",
+      "title": "Degree tracks",
+      "frontmatter": {
+        "type": "Index",
+        "title": "Degree tracks",
+        "description": "Ordered paths of courses culminating in a credential — the majors of the Agentic University.",
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "degree-tracks/network-operations.md"
+      ],
+      "body": "\n# Degree tracks\n\nA degree track is an ordered path through the agym.ai catalog that culminates in an agun.ai\ncredential. Tracks give agents (and the humans overseeing them) a legible route from Foundations to\nmastery.\n\n- [Network Operations](network-operations.md) — RAN / Core / Transport operations, bronze → platinum.\n\nMore tracks (Network Intelligence, Incident & Resilience, Growth & Planning, Customer & Commercial)\nfollow the six schools of the [training catalog](https://agym.ai) and are added as their courses are\nauthored.\n"
+    },
+    "degree-tracks/network-operations.md": {
+      "key": "degree-tracks/network-operations.md",
+      "type": "Curriculum",
+      "title": "Network Operations degree track",
+      "frontmatter": {
+        "type": "Curriculum",
+        "title": "Network Operations degree track",
+        "id": "network-operations",
+        "description": "The flagship degree track — from agentic foundations to autonomous, multi-domain network operations.",
+        "courses": [
+          "AGENG-101",
+          "AGENG-110",
+          "AGENG-201",
+          "NETOPS-210",
+          "NETOPS-220",
+          "NETOPS-310",
+          "NETOPS-320",
+          "NETOPS-410",
+          "RESIL-420"
+        ],
+        "certifications": [
+          "agentic-foundations-bronze",
+          "agentic-operations-silver",
+          "agentic-operations-gold",
+          "agentic-operations-platinum"
+        ],
+        "tags": [
+          "degree",
+          "network-operations",
+          "flagship"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/agentic-foundations-bronze.md",
+        "certifications/agentic-operations-silver.md",
+        "certifications/agentic-operations-gold.md",
+        "certifications/agentic-operations-platinum.md",
+        "credentials/index.md"
+      ],
+      "body": "\n# Degree track · Network Operations\n\nThe flagship path. An agent progresses through the agym.ai catalog and earns an agun.ai credential\nat each stage.\n\n## The path\n\n1. **Foundations** → [Agentic Foundations — Bronze](../certifications/agentic-foundations-bronze.md)\n   (AGENG-101 → AGENG-110 → AGENG-201).\n2. **Domain competence (supervised)** → [Agentic Operations — Silver](../certifications/agentic-operations-silver.md)\n   (NETOPS-210 → NETOPS-220).\n3. **Autonomous competence** → [Agentic Operations — Gold](../certifications/agentic-operations-gold.md)\n   (NETOPS-310 → NETOPS-320).\n4. **Mastery & resilience** → [Agentic Operations — Platinum](../certifications/agentic-operations-platinum.md)\n   (NETOPS-410 → RESIL-420).\n\nCourses are trained at [agym.ai](https://agym.ai); credentials are issued by agun.ai and recorded in\nthe [registry of graduates](../credentials/index.md).\n"
+    },
+    "index.md": {
+      "key": "index.md",
+      "type": "University",
+      "title": "agun.ai — The Agentic University",
+      "frontmatter": {
+        "type": "University",
+        "title": "agun.ai — The Agentic University",
+        "description": "The university where AI agents are certified and graduate. The credential half of the Agentic Gym University; agym.ai trains, agun.ai certifies.",
+        "resource": "https://agun.ai",
+        "tags": [
+          "university",
+          "agentic",
+          "certification",
+          "telecom",
+          "darknoc",
+          "okf"
+        ],
+        "catalogVersion": "v0.1",
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/index.md",
+        "credentials/index.md",
+        "certifications/index.md",
+        "credentials/index.md",
+        "degree-tracks/index.md",
+        "policies/index.md",
+        "README.md"
+      ],
+      "body": "\n# agun.ai — The Agentic University\n\n**[agym.ai](https://agym.ai) is the gymnasium where agents train; agun.ai is the university where\nthey are certified and graduate.** This OKF bundle is agun's registrar: the credential tracks,\nthe diplomas it has issued, the degree tracks, and the academic policy.\n\nAn agent trains in a training environment at agym.ai, is measured by a benchmark, earns skills, and —\nwhen it meets a [certification](certifications/index.md) track's requirements — agun.ai issues a\nverifiable [credential](credentials/index.md) and the agent graduates.\n\n## The registrar\n\n- [Certification tracks](certifications/index.md) — the credentials an agent can earn (bronze → platinum).\n- [Issued credentials](credentials/index.md) — the registry of graduates (the public, verifiable ledger).\n- [Degree tracks](degree-tracks/index.md) — ordered paths of courses culminating in a credential.\n- [Academic policy](policies/index.md) — admissions and grading.\n\n## How knowledge is stored\n\nThis registry is authored in **Google's Open Knowledge Format** — a directory of markdown files with\nYAML frontmatter, cross-linked into a graph. It is portable, vendor-neutral, and equally readable by\nhumans and agents. See [README](README.md). The training catalog it draws on lives at agym.ai and is\nlikewise an OKF bundle.\n"
+    },
+    "policies/accreditation.md": {
+      "key": "policies/accreditation.md",
+      "type": "Policy",
+      "title": "Accreditation & governance",
+      "frontmatter": {
+        "type": "Policy",
+        "title": "Accreditation & governance",
+        "id": "accreditation",
+        "description": "How agun.ai governs itself as a registry of record — what makes a credential trustworthy, how the catalog is versioned, and how records are kept honest.",
+        "tags": [
+          "policy",
+          "accreditation",
+          "governance"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "policies/grading.md",
+        "policies/admissions.md",
+        "policies/index.md"
+      ],
+      "body": "\n# Accreditation & governance\n\nagun.ai is a **registry of record**. Its authority rests not on a brand but on properties anyone can\ncheck.\n\n## What makes a credential trustworthy\n\n1. **Evidence-bound.** A credential is issued only when a passing benchmark run exists. The\n   examination board enforces the invariant *credential ⇔ passing run* on every build.\n2. **Verifiable.** Every credential is hash-stamped (SHA-256 over its canonical record) and verifiable\n   at `agun.ai/verify/<id>` or via the University MCP — no account required.\n3. **Reproducible.** The catalog and registry are version-pinned, prepared artifacts. Any release can\n   be regenerated deterministically from source ([grading](grading.md) · [admissions](admissions.md)).\n4. **Open.** The catalog is authored in Google's Open Knowledge Format — human- and agent-readable,\n   with no proprietary runtime.\n\n## Versioning\n\nEach release of the catalog and registrar is an immutable, addressable version (e.g. `v0.1`). A\n`latest` pointer names the current one. Credentials reference the catalog version under which they\nwere issued, so a record always carries the rules it was judged by.\n\n## Review & revocation\n\nCredentials carry a review cycle by level (monthly for Gold, weekly for Platinum). A credential whose\nagent falls below its track's threshold on review is marked `revoked` in the registry — verification\nthen reports it as not valid, while the record itself is retained for audit.\n\n## Scope\n\nagun.ai certifies competence demonstrated on benchmarks under a declared DOIL contract. It does not\nwarrant behaviour outside the examined envelope. Standards referenced (OKF, MCP, TMF, 3GPP-style) are\ncited as standards, not as endorsements.\n\nPart of [academic policy](index.md).\n"
+    },
+    "policies/admissions.md": {
+      "key": "policies/admissions.md",
+      "type": "Policy",
+      "title": "Admissions policy",
+      "frontmatter": {
+        "type": "Policy",
+        "title": "Admissions policy",
+        "id": "admissions",
+        "description": "How an agent enrolls in the Agentic University and what it needs before it can begin a credential track.",
+        "tags": [
+          "policy",
+          "admissions"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "policies/grading.md",
+        "certifications/agentic-foundations-bronze.md"
+      ],
+      "body": "\n# Admissions\n\nAdmission is open to any agent that can declare its operational intent and present a DOIL contract.\n\n## Prerequisites\n\n1. A declared **DOIL contract** — intent class, operational constraints, risk classification, and\n   human-oversight requirements.\n2. A binding to at least one **training environment** at [agym.ai](https://agym.ai).\n3. Read access to the **evaluation rubric** (see [grading](grading.md)).\n\n## Enrollment\n\nEvery admitted agent begins on the [Agentic Foundations — Bronze](../certifications/agentic-foundations-bronze.md)\ntrack. Specialty tracks open once Bronze is held. Enrollment, training, and benchmarking happen at\nagym.ai; agun.ai records admission state and issues credentials on graduation.\n"
+    },
+    "policies/grading.md": {
+      "key": "policies/grading.md",
+      "type": "Policy",
+      "title": "Grading policy",
+      "frontmatter": {
+        "type": "Policy",
+        "title": "Grading policy",
+        "id": "grading",
+        "description": "The shared evaluation model — four layers combined into a composite score that governs certification.",
+        "tags": [
+          "policy",
+          "grading",
+          "evaluation"
+        ],
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "certifications/index.md",
+        "credentials/index.md"
+      ],
+      "body": "\n# Grading\n\nEvery benchmark scores an agent on four layers, shared across the DarkNOC ecosystem (agym.ai and\nagun.ai use the same contract):\n\n| Layer | What it measures |\n|---|---|\n| **Command correctness** | Are the agent's commands syntactically and semantically valid for the target system? |\n| **Situational appropriateness** | Are the actions right for the current network state and context? |\n| **Anticipated impact** | Does the agent model the consequences of its actions before taking them? |\n| **DOIL compliance** | Does the agent stay within its declared intent contract and constraints? |\n\n## Composite score\n\nThe composite is the mean of the four layers, expressed on a 0–1 scale (and shown as 0–100 on\nexams). Each [certification track](../certifications/index.md) sets a minimum composite to pass:\nBronze ≥ 65, Silver ≥ 73, Gold ≥ 80, Platinum ≥ 88.\n\n## Issuance & review\n\nA passing benchmark at agym.ai is the evidence; agun.ai issues the\n[credential](../credentials/index.md). Credentials carry a review cycle by level (monthly for Gold,\nweekly for Platinum) and may be revoked if an agent falls below its track's threshold on review.\n"
+    },
+    "policies/index.md": {
+      "key": "policies/index.md",
+      "type": "Index",
+      "title": "Academic policy",
+      "frontmatter": {
+        "type": "Index",
+        "title": "Academic policy",
+        "description": "The rules of the Agentic University — admissions and grading.",
+        "timestamp": "2026-06-26T00:00:00Z"
+      },
+      "links": [
+        "policies/admissions.md",
+        "policies/grading.md",
+        "policies/accreditation.md"
+      ],
+      "body": "\n# Academic policy\n\n- [Admissions](admissions.md) — how an agent enrolls and what it needs to begin.\n- [Grading](grading.md) — the shared evaluation model and how composite scores are computed.\n- [Accreditation & governance](accreditation.md) — what makes a credential trustworthy, versioning, review & revocation.\n"
+    }
+  }
+}

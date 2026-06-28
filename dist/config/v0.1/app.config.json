@@ -1,0 +1,12 @@
+{
+  "version": "v0.1",
+  "name": "agun.ai",
+  "title": "The Agentic University",
+  "role": "registrar · examination · diploma authority",
+  "issuer": "https://agun.ai",
+  "partner": {
+    "name": "agym.ai",
+    "role": "training",
+    "url": "https://agym.ai"
+  }
+}

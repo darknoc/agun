@@ -1,0 +1,66 @@
+{
+  "catalogVersion": "v0.1",
+  "generatedAt": "2026-06-28T08:23:05.263Z",
+  "issuer": "https://agun.ai",
+  "counts": {
+    "total": 3,
+    "valid": 3,
+    "revoked": 0
+  },
+  "credentials": [
+    {
+      "credentialId": "agun-2026-0001",
+      "agentSlug": "cell-optimizer",
+      "agentName": "Cell Optimizer",
+      "certificationId": "agentic-foundations-bronze",
+      "level": "bronze",
+      "compositeScore": 0.65,
+      "scores": {
+        "commandCorrectness": 0.71,
+        "situationalAppropriateness": 0.62,
+        "anticipatedImpact": 0.58,
+        "doilCompliance": 0.69
+      },
+      "issuedDate": "2026-03-01",
+      "issuer": "https://agun.ai",
+      "status": "valid",
+      "verificationHash": "8a3bbc7e5302bc85150c2ce7043046dc7b5e805932d513b4803c1972d8f76f97"
+    },
+    {
+      "credentialId": "agun-2026-0002",
+      "agentSlug": "coverage-analyzer",
+      "agentName": "Coverage Analyzer",
+      "certificationId": "agentic-operations-silver",
+      "level": "silver",
+      "compositeScore": 0.74,
+      "scores": {
+        "commandCorrectness": 0.81,
+        "situationalAppropriateness": 0.72,
+        "anticipatedImpact": 0.69,
+        "doilCompliance": 0.74
+      },
+      "issuedDate": "2026-02-15",
+      "issuer": "https://agun.ai",
+      "status": "valid",
+      "verificationHash": "510d00bea63bed326af684526acd0c953c578ccdb6dc0ff7e5837ea764f68cd7"
+    },
+    {
+      "credentialId": "agun-2026-0003",
+      "agentSlug": "energy-optimizer",
+      "agentName": "Energy Optimizer",
+      "certificationId": "agentic-operations-gold",
+      "level": "gold",
+      "compositeScore": 0.82,
+      "scores": {
+        "commandCorrectness": 0.88,
+        "situationalAppropriateness": 0.79,
+        "anticipatedImpact": 0.84,
+        "doilCompliance": 0.77
+      },
+      "issuedDate": "2026-02-28",
+      "issuer": "https://agun.ai",
+      "status": "valid",
+      "verificationHash": "6c6f53abe1837133d0775ab1862048c43302d586db3383e08b1d3bbc1fe85c6b"
+    }
+  ]
+}

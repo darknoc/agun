@@ -1,0 +1,36 @@
+name: OKF
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["dist/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate + compile OKF
+        run: npm run build
+      - name: Commit dist
+        run: |
+          git config user.name "okf-bot"
+          git config user.email "ai.operations@radioqubits.com"
+          git add dist
+          if git diff --staged --quiet; then
+            echo "no dist changes"
+          else
+            git commit -m "okf: compile dist [skip ci]"
+            git push
+          fi
+      - name: Revalidate app
+        if: ${{ success() }}
+        run: |
+          curl -s -X POST "${{ secrets.APP_URL }}/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}" || true

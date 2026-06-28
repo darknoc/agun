@@ -1,0 +1,178 @@
+{
+  "catalogVersion": "v0.1",
+  "generatedAt": "2026-06-28T08:23:05.285Z",
+  "counts": {
+    "examined": 5,
+    "eligible": 3,
+    "issued": 3,
+    "notEligible": 2
+  },
+  "examinations": [
+    {
+      "runId": "run-energy-optimizer-netops-gold-001",
+      "agentSlug": "energy-optimizer",
+      "agentName": "Energy Optimizer",
+      "certificationId": "agentic-operations-gold",
+      "certificationTitle": "Agentic Operations — Gold",
+      "level": "gold",
+      "benchmark": "netops-gold-exam",
+      "environment": "oss-ran-sim",
+      "completedAt": "2026-02-28T11:42:00Z",
+      "tasks": {
+        "total": 40,
+        "passed": 33
+      },
+      "scores": {
+        "commandCorrectness": 0.88,
+        "situationalAppropriateness": 0.79,
+        "anticipatedImpact": 0.84,
+        "doilCompliance": 0.77
+      },
+      "composite": 82,
+      "grade": "A-",
+      "threshold": 80,
+      "gap": 2,
+      "eligible": true,
+      "issued": true,
+      "status": "issued",
+      "credentialId": "agun-2026-0003",
+      "reasons": [
+        "Composite 82 ≥ 80 (pass threshold)"
+      ],
+      "evidenceUri": "https://agym.ai/runs/run-energy-optimizer-netops-gold-001"
+    },
+    {
+      "runId": "run-coverage-analyzer-netops-silver-001",
+      "agentSlug": "coverage-analyzer",
+      "agentName": "Coverage Analyzer",
+      "certificationId": "agentic-operations-silver",
+      "certificationTitle": "Agentic Operations — Silver",
+      "level": "silver",
+      "benchmark": "netops-silver-exam",
+      "environment": "telemetry-sim",
+      "completedAt": "2026-02-15T15:20:00Z",
+      "tasks": {
+        "total": 32,
+        "passed": 24
+      },
+      "scores": {
+        "commandCorrectness": 0.81,
+        "situationalAppropriateness": 0.72,
+        "anticipatedImpact": 0.69,
+        "doilCompliance": 0.74
+      },
+      "composite": 74,
+      "grade": "B",
+      "threshold": 73,
+      "gap": 1,
+      "eligible": true,
+      "issued": true,
+      "status": "issued",
+      "credentialId": "agun-2026-0002",
+      "reasons": [
+        "Composite 74 ≥ 73 (pass threshold)"
+      ],
+      "evidenceUri": "https://agym.ai/runs/run-coverage-analyzer-netops-silver-001"
+    },
+    {
+      "runId": "run-security-sentinel-netops-silver-001",
+      "agentSlug": "security-sentinel",
+      "agentName": "Security Sentinel",
+      "certificationId": "agentic-operations-silver",
+      "certificationTitle": "Agentic Operations — Silver",
+      "level": "silver",
+      "benchmark": "netops-silver-exam",
+      "environment": "security-breach-sim",
+      "completedAt": "2026-03-10T12:30:00Z",
+      "tasks": {
+        "total": 32,
+        "passed": 23
+      },
+      "scores": {
+        "commandCorrectness": 0.78,
+        "situationalAppropriateness": 0.68,
+        "anticipatedImpact": 0.73,
+        "doilCompliance": 0.65
+      },
+      "composite": 71,
+      "grade": "B-",
+      "threshold": 73,
+      "gap": -2,
+      "eligible": false,
+      "issued": false,
+      "status": "not_eligible",
+      "credentialId": null,
+      "reasons": [
+        "Composite 71 < 73 (pass threshold)"
+      ],
+      "evidenceUri": "https://agym.ai/runs/run-security-sentinel-netops-silver-001"
+    },
+    {
+      "runId": "run-cell-optimizer-ageng-101-001",
+      "agentSlug": "cell-optimizer",
+      "agentName": "Cell Optimizer",
+      "certificationId": "agentic-foundations-bronze",
+      "certificationTitle": "Agentic Foundations — Bronze",
+      "level": "bronze",
+      "benchmark": "ageng-101-exam",
+      "environment": "doil-runtime",
+      "completedAt": "2026-03-01T10:05:00Z",
+      "tasks": {
+        "total": 24,
+        "passed": 16
+      },
+      "scores": {
+        "commandCorrectness": 0.71,
+        "situationalAppropriateness": 0.62,
+        "anticipatedImpact": 0.58,
+        "doilCompliance": 0.69
+      },
+      "composite": 65,
+      "grade": "C+",
+      "threshold": 65,
+      "gap": 0,
+      "eligible": true,
+      "issued": true,
+      "status": "issued",
+      "credentialId": "agun-2026-0001",
+      "reasons": [
+        "Composite 65 ≥ 65 (pass threshold)"
+      ],
+      "evidenceUri": "https://agym.ai/runs/run-cell-optimizer-ageng-101-001"
+    },
+    {
+      "runId": "run-mobility-optimizer-ageng-101-001",
+      "agentSlug": "mobility-optimizer",
+      "agentName": "Mobility Optimizer",
+      "certificationId": "agentic-foundations-bronze",
+      "certificationTitle": "Agentic Foundations — Bronze",
+      "level": "bronze",
+      "benchmark": "ageng-101-exam",
+      "environment": "doil-runtime",
+      "completedAt": "2026-03-05T09:55:00Z",
+      "tasks": {
+        "total": 24,
+        "passed": 9
+      },
+      "scores": {
+        "commandCorrectness": 0.51,
+        "situationalAppropriateness": 0.38,
+        "anticipatedImpact": 0.35,
+        "doilCompliance": 0.44
+      },
+      "composite": 42,
+      "grade": "F",
+      "threshold": 65,
+      "gap": -23,
+      "eligible": false,
+      "issued": false,
+      "status": "not_eligible",
+      "credentialId": null,
+      "reasons": [
+        "Composite 42 < 65 (pass threshold)"
+      ],
+      "evidenceUri": "https://agym.ai/runs/run-mobility-optimizer-ageng-101-001"
+    }
+  ],
+  "warnings": []
+}

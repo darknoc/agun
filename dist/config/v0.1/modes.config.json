@@ -1,0 +1,35 @@
+{
+  "version": "v0.1",
+  "nav": [
+    {
+      "id": "registry",
+      "label": "Registry",
+      "href": "/registry"
+    },
+    {
+      "id": "certifications",
+      "label": "Certifications",
+      "href": "/certifications"
+    },
+    {
+      "id": "departments",
+      "label": "Departments",
+      "href": "/departments"
+    },
+    {
+      "id": "criteria",
+      "label": "Criteria",
+      "href": "/criteria"
+    },
+    {
+      "id": "verify",
+      "label": "Verify",
+      "href": "/verify"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "href": "/about"
+    }
+  ]
+}

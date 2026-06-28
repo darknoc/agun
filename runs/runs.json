@@ -1,0 +1,76 @@
+{
+  "schema": "darknoc/agym-benchmark-run/v1",
+  "description": "Benchmark run-records — the examination evidence agym.ai produces. agun.ai consumes these to score, check eligibility, and issue credentials. Each record is one agent's attempt at one benchmark in one training environment. (Seed evidence; live ingestion from agym lands when agym emits run-records.)",
+  "runs": [
+    {
+      "runId": "run-energy-optimizer-netops-gold-001",
+      "agentSlug": "energy-optimizer",
+      "agentName": "Energy Optimizer",
+      "certificationId": "agentic-operations-gold",
+      "benchmark": "netops-gold-exam",
+      "environment": "oss-ran-sim",
+      "startedAt": "2026-02-27T09:00:00Z",
+      "completedAt": "2026-02-28T11:42:00Z",
+      "scores": { "commandCorrectness": 0.88, "situationalAppropriateness": 0.79, "anticipatedImpact": 0.84, "doilCompliance": 0.77 },
+      "tasks": { "total": 40, "passed": 33 },
+      "evidenceUri": "https://agym.ai/runs/run-energy-optimizer-netops-gold-001",
+      "status": "completed"
+    },
+    {
+      "runId": "run-coverage-analyzer-netops-silver-001",
+      "agentSlug": "coverage-analyzer",
+      "agentName": "Coverage Analyzer",
+      "certificationId": "agentic-operations-silver",
+      "benchmark": "netops-silver-exam",
+      "environment": "telemetry-sim",
+      "startedAt": "2026-02-14T13:00:00Z",
+      "completedAt": "2026-02-15T15:20:00Z",
+      "scores": { "commandCorrectness": 0.81, "situationalAppropriateness": 0.72, "anticipatedImpact": 0.69, "doilCompliance": 0.74 },
+      "tasks": { "total": 32, "passed": 24 },
+      "evidenceUri": "https://agym.ai/runs/run-coverage-analyzer-netops-silver-001",
+      "status": "completed"
+    },
+    {
+      "runId": "run-cell-optimizer-ageng-101-001",
+      "agentSlug": "cell-optimizer",
+      "agentName": "Cell Optimizer",
+      "certificationId": "agentic-foundations-bronze",
+      "benchmark": "ageng-101-exam",
+      "environment": "doil-runtime",
+      "startedAt": "2026-02-28T08:00:00Z",
+      "completedAt": "2026-03-01T10:05:00Z",
+      "scores": { "commandCorrectness": 0.71, "situationalAppropriateness": 0.62, "anticipatedImpact": 0.58, "doilCompliance": 0.69 },
+      "tasks": { "total": 24, "passed": 16 },
+      "evidenceUri": "https://agym.ai/runs/run-cell-optimizer-ageng-101-001",
+      "status": "completed"
+    },
+    {
+      "runId": "run-security-sentinel-netops-silver-001",
+      "agentSlug": "security-sentinel",
+      "agentName": "Security Sentinel",
+      "certificationId": "agentic-operations-silver",
+      "benchmark": "netops-silver-exam",
+      "environment": "security-breach-sim",
+      "startedAt": "2026-03-09T10:00:00Z",
+      "completedAt": "2026-03-10T12:30:00Z",
+      "scores": { "commandCorrectness": 0.78, "situationalAppropriateness": 0.68, "anticipatedImpact": 0.73, "doilCompliance": 0.65 },
+      "tasks": { "total": 32, "passed": 23 },
+      "evidenceUri": "https://agym.ai/runs/run-security-sentinel-netops-silver-001",
+      "status": "completed"
+    },
+    {
+      "runId": "run-mobility-optimizer-ageng-101-001",
+      "agentSlug": "mobility-optimizer",
+      "agentName": "Mobility Optimizer",
+      "certificationId": "agentic-foundations-bronze",
+      "benchmark": "ageng-101-exam",
+      "environment": "doil-runtime",
+      "startedAt": "2026-03-04T09:00:00Z",
+      "completedAt": "2026-03-05T09:55:00Z",
+      "scores": { "commandCorrectness": 0.51, "situationalAppropriateness": 0.38, "anticipatedImpact": 0.35, "doilCompliance": 0.44 },
+      "tasks": { "total": 24, "passed": 9 },
+      "evidenceUri": "https://agym.ai/runs/run-mobility-optimizer-ageng-101-001",
+      "status": "completed"
+    }
+  ]
+}

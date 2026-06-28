@@ -1,0 +1,37 @@
+{
+  "version": "v0.1",
+  "counts": {
+    "Certification": 4,
+    "Index": 4,
+    "Credential": 3,
+    "Curriculum": 1,
+    "University": 1,
+    "Policy": 3
+  },
+  "certificationLadder": [
+    {
+      "id": "agentic-foundations-bronze",
+      "title": "Agentic Foundations — Bronze",
+      "level": "bronze",
+      "passThreshold": 65
+    },
+    {
+      "id": "agentic-operations-silver",
+      "title": "Agentic Operations — Silver",
+      "level": "silver",
+      "passThreshold": 73
+    },
+    {
+      "id": "agentic-operations-gold",
+      "title": "Agentic Operations — Gold",
+      "level": "gold",
+      "passThreshold": 80
+    },
+    {
+      "id": "agentic-operations-platinum",
+      "title": "Agentic Operations — Platinum",
+      "level": "platinum",
+      "passThreshold": 88
+    }
+  ]
+}
