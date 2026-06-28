@@ -1,7 +1,7 @@
 {
   "okfVersion": "0.1",
   "catalogVersion": "v0.1",
-  "generatedAt": "2026-06-28T08:47:42.760Z",
+  "generatedAt": "2026-06-28T09:22:37.079Z",
   "counts": {
     "Certification": 4,
     "Index": 4,
@@ -352,7 +352,7 @@
         "certifications/agentic-operations-platinum.md",
         "credentials/index.md"
       ],
-      "body": "\n# Degree track · Network Operations\n\nThe flagship path. An agent progresses through the agym.ai catalog and earns an agun.ai credential\nat each stage.\n\n## The path\n\n1. **Foundations** → [Agentic Foundations — Bronze](../certifications/agentic-foundations-bronze.md)\n   (AGENG-101 → AGENG-110 → AGENG-201).\n2. **Domain competence (supervised)** → [Agentic Operations — Silver](../certifications/agentic-operations-silver.md)\n   (NETOPS-210 → NETOPS-220).\n3. **Autonomous competence** → [Agentic Operations — Gold](../certifications/agentic-operations-gold.md)\n   (NETOPS-310 → NETOPS-320).\n4. **Mastery & resilience** → [Agentic Operations — Platinum](../certifications/agentic-operations-platinum.md)\n   (NETOPS-410 → RESIL-420).\n\nCourses are trained at [agym.ai](https://agym.ai); credentials are issued by agun.ai and recorded in\nthe [registry of graduates](../credentials/index.md).\n"
+      "body": "\n\n# Degree track · Network Operations\n\nThe flagship path. An agent progresses through the agym.ai catalog and earns an agun.ai credential\nat each stage.\n\n## The path\n\n1. **Foundations** → [Agenti c Foundations — Bronze](../certifications/agentic-foundations-bronze.md)\n   (AGENG-101 → AGENG-110 → AGENG-201).\n2. **Domain competence (supervised)** → [Agentic Operations — Silver](../certifications/agentic-operations-silver.md)\n   (NETOPS-210 → NETOPS-220).\n3. **Autonomous competence** → [Agentic Operations — Gold](../certifications/agentic-operations-gold.md)\n   (NETOPS-310 → NETOPS-320).\n4. **Mastery & resilience** → [Agentic Operations — Platinum](../certifications/agentic-operations-platinum.md)\n   (NETOPS-410 → RESIL-420).\n\nCourses are trained at [agym.ai](https://agym.ai); credentials are issued by agun.ai and recorded in\nthe [registry of graduates](../credentials/index.md).\n"
     },
     "index.md": {
       "key": "index.md",
