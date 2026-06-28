@@ -4,7 +4,7 @@
   "type": "module",
   "description": "The OKF record for agun.ai — the open knowledge (catalog, credentials, degrees, policies). Edit knowledge/; CI compiles to dist/; agun.ai reads dist/ as the published overlay.",
   "scripts": {
-    "build": "node scripts/build-okf.mjs && node scripts/build-registrar.mjs && node scripts/build-issuance.mjs && node scripts/build-config.mjs && npm run sync",
+    "build": "node scripts/build-okf.mjs && node scripts/build-reports.mjs && node scripts/build-registrar.mjs && node scripts/build-issuance.mjs && node scripts/build-config.mjs && npm run sync",
     "sync": "rm -rf dist && mkdir -p dist && cp -r public/okf public/data public/config dist/ && cp public/llms.txt dist/ 2>/dev/null || true"
   }
 }
